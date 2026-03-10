@@ -23,15 +23,7 @@
 
 ## 📸 产品展示
 
-### 硬件设计
-
-| PCB 正面 | PCB 背面 |
-|:--------:|:--------:|
-| ![PCB正面](hardware/images/pcb_front.jpg) | ![PCB背面](hardware/images/pcb_back.jpg) |
-
-### 成品展示
-
-![产品照片](images/product-front.jpg)
+![产品照片](hardware/images/product-front.jpg)
 
 > 一体化 PCB 设计，告别模块化组装，直接可用
 
