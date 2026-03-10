@@ -4,6 +4,8 @@
 [![MCU](https://img.shields.io/badge/MCU-ESP32--C3FH4-green)](https://www.espressif.com/en/products/socs/esp32-c3)
 [![Framework](https://img.shields.io/badge/Framework-Arduino-orange)](https://www.arduino.cc/)
 
+**中文 | [English](README_EN.md)**
+
 > **一体化微型激光雕刻机解决方案**
 >
 > 基于 ESP32-C3 的紧凑型激光雕刻机，集成 Web 控制端，支持蓝牙无线操作。
@@ -94,8 +96,8 @@ Grbl_ESP32 是 [Grbl](https://github.com/gnea/grbl)（原作者：Sungeun K. Jeo
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/你的用户名/你的仓库名.git
-cd 你的仓库名
+git clone https://github.com/Carl-debug2025/ESP32-C3-Laser-Engraver.git
+cd ESP32-C3-Laser-Engraver
 
 # 2. 安装 PlatformIO (VSCode 插件)
 
@@ -214,10 +216,20 @@ ESP32-C3FH4                 A4988 (X轴)
 │   │   └── WebUI/
 │   │       └── BLEConfig.cpp     # BLE 蓝牙服务
 │   └── Grbl_Esp32.ino            # Arduino 入口
+├── hardware/                # 硬件设计文件
+│   ├── schematic.pdf        # 电路原理图
+│   ├── bom.csv              # 物料清单
+│   ├── gerber/              # Gerber 文件（PCB 打样）
+│   └── images/              # 硬件照片
+│       ├── pcb_front.jpg
+│       ├── pcb_back.jpg
+│       └── product-front.jpg
 ├── G代码生成器.html          # ⭐ Web 控制端
 ├── LICENSE                  # GPLv3 许可证
-├── README.md                # 本文档
-└── 设备图片/                # 硬件照片
+├── README.md                # 中文文档
+├── README_EN.md             # English Documentation
+├── CHANGELOG.md             # 更新日志
+└── CONTRIBUTING.md          # 贡献指南
 ```
 
 ---
@@ -309,7 +321,7 @@ ESP32-C3FH4                 A4988 (X轴)
 
 ## 📧 联系方式
 
-- Issues: [GitHub Issues](https://github.com/你的用户名/你的仓库名/issues)
+- Issues: [GitHub Issues](https://github.com/Carl-debug2025/ESP32-C3-Laser-Engraver/issues)
 - 欢迎提交 PR 和 Issue！
 
 ---
