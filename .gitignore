@@ -39,3 +39,6 @@ embedded/dist/
 
 # IDE
 .idea/
+
+# spec-workflow tool generated
+.spec-workflow/
