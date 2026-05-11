@@ -33,15 +33,10 @@
 
 
 | 命令 | 作用 |
-
 |------|------|
-
 | `git status` | 看现状 |
-
 | `git add` | 加入暂存 |
-
 | `git commit` | 盖戳保存 |
-
 | `git push` | 推到 GitHub |
 
 
